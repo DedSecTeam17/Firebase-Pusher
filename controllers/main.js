@@ -8,7 +8,9 @@ module.exports.pushNotification = (async (req, res, next) => {
         notification: {
             title: req.body["title"],
             body: req.body["description"],
-            channel_id: req.body["channel_name"]
+           data : {
+               channel_id: req.body["channel_name"]
+           }
         }
     };
     const notification_options = {
