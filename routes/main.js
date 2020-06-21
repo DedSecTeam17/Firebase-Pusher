@@ -6,7 +6,7 @@ const MainCtrl = require('../controllers/main');
 
 
 //searchForBox
-router.post('/dsmc/notification/push', MainCtrl.pushNotification);
+router.post('/notification/push', MainCtrl.pushNotification);
 
 
 module.exports = router;
