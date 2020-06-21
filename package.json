@@ -1,0 +1,28 @@
+{
+  "name": "push-notification-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed Elamin",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^8.12.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.5.4",
+    "mongoose-timestamp": "^0.6.0",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^1.18.11",
+    "restify": "^8.3.1",
+    "restify-errors": "^7.0.0",
+    "restify-jwt-community": "^1.0.11"
+  }
+}
