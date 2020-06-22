@@ -8,11 +8,19 @@ module.exports.pushNotification = (async (req, res, next) => {
         notification: {
             title: req.body["title"],
             body: req.body["description"],
+            'click_action': 'FLUTTER_NOTIFICATION_CLICK',
 
         },
-        data : {
-            channel_id: req.body["channel_name"]
+        data: {
+            'click_action': 'FLUTTER_NOTIFICATION_CLICK',
+            'status': '/test',
+            'id': '1',
+            title: req.body["title"],
+            body: req.body["description"],
+            channel_id: req.body["channel_name"],
+
         }
+
     };
     const notification_options = {
         priority: "high",
